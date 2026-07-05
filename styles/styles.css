@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,12 +18,22 @@ h1 {
   font-size: 2rem;
   font-weight: 500;
   line-height: 36px;
+  font-family: "Archivo Black", sans-serif;
+}
+
+h2 {
+  font-family: "Archivo Black", sans-serif;
 }
 
 p {
   text-align: center;
   font-size: 1.125rem;
   line-height: 20px;
+  font-family: "Righteous", sans-serif;
+}
+
+a {
+  font-family: "Archivo Black", sans-serif;
 }
 
 .navbar {
@@ -84,6 +96,7 @@ footer {
 }
 
 .card {
+  margin: 1rem;
   width: 500px;
   padding: 1rem;
   border: 1px solid black;
