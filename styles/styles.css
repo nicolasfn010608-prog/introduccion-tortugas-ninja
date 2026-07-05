@@ -108,6 +108,17 @@ footer {
   width: 100%;
 }
 
+.accordion-button:not(.collapsed) {
+  background-color: inherit;
+  border-color: inherit;
+  box-shadow: none;
+  outline: none;
+}
+
+.accordion-item {
+  color: BCB382;
+}
+
 .copyright {
   display: flex;
   flex-direction: row;

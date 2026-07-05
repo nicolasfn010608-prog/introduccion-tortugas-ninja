@@ -1,0 +1,12 @@
+@use "../utilities/variables";
+
+.accordion-button:not(.collapsed) {
+  background-color: inherit;
+  border-color: inherit;
+  box-shadow: none;
+  outline: none;
+}
+
+.accordion-item {
+    color: variables.$gris-oscuro;
+}
