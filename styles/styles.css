@@ -74,6 +74,10 @@ a {
   margin: 0 auto;
 }
 
+.introduccion {
+  padding: 2rem;
+}
+
 header {
   background-image: linear-gradient(to bottom, white, #539987);
 }
